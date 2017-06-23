@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F3F9C6D2C9EF28190EF105F /* libPods-ZSReader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F4DC7263B57AB9E3821DFC /* libPods-ZSReader.a */; };
+		FB2E670E1EF7AEE600AF31A1 /* ZSRankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2E670D1EF7AEE600AF31A1 /* ZSRankViewController.m */; };
+		FBCF7AFC1EFBAB5C00414542 /* ZSSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCF7AFB1EFBAB5C00414542 /* ZSSearchViewController.m */; };
+		FBCF7AFF1EFBAB9100414542 /* ZSSearchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCF7AFE1EFBAB9100414542 /* ZSSearchTableViewCell.m */; };
+		FBD32A041EF1337F00AFF090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD32A031EF1337F00AFF090 /* main.m */; };
+		FBD32A071EF1337F00AFF090 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD32A061EF1337F00AFF090 /* AppDelegate.m */; };
+		FBD32A0F1EF1337F00AFF090 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBD32A0E1EF1337F00AFF090 /* Assets.xcassets */; };
+		FBD32A121EF1337F00AFF090 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD32A101EF1337F00AFF090 /* LaunchScreen.storyboard */; };
+		FBD32A1B1EF1357B00AFF090 /* ZSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD32A1A1EF1357B00AFF090 /* ZSBaseViewController.m */; };
+		FBD32A1E1EF137BE00AFF090 /* ZSShelfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD32A1D1EF137BE00AFF090 /* ZSShelfViewController.m */; };
+		FBD32A211EF137CD00AFF090 /* ZSMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD32A201EF137CD00AFF090 /* ZSMenuViewController.m */; };
+		FBD32A241EF137E500AFF090 /* ZSStoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD32A231EF137E500AFF090 /* ZSStoreViewController.m */; };
+		FBD32A271EF1397200AFF090 /* ZSBaseNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD32A261EF1397200AFF090 /* ZSBaseNavController.m */; };
+		FBF8DCCE1EF8B9250038D39D /* UINavigationController+WXSTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF8DCAE1EF8B9250038D39D /* UINavigationController+WXSTransition.m */; };
+		FBF8DCCF1EF8B9250038D39D /* UIViewController+WXSTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF8DCB01EF8B9250038D39D /* UIViewController+WXSTransition.m */; };
+		FBF8DCD01EF8B9250038D39D /* UIViewController+WXSTransitionProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF8DCB21EF8B9250038D39D /* UIViewController+WXSTransitionProperty.m */; };
+		FBF8DCD11EF8B9250038D39D /* WXSPercentDrivenInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF8DCB41EF8B9250038D39D /* WXSPercentDrivenInteractiveTransition.m */; };
+		FBF8DCD21EF8B9250038D39D /* WXSTransitionManager+BoomAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF8DCB61EF8B9250038D39D /* WXSTransitionManager+BoomAnimation.m */; };
+		FBF8DCD31EF8B9250038D39D /* WXSTransitionManager+BrickAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF8DCB81EF8B9250038D39D /* WXSTransitionManager+BrickAnimation.m */; };
+		FBF8DCD41EF8B9250038D39D /* WXSTransitionManager+CoverAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF8DCBA1EF8B9250038D39D /* WXSTransitionManager+CoverAnimation.m */; };
+		FBF8DCD51EF8B9250038D39D /* WXSTransitionManager+FragmentAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF8DCBC1EF8B9250038D39D /* WXSTransitionManager+FragmentAnimation.m */; };
+		FBF8DCD61EF8B9250038D39D /* WXSTransitionManager+InsideThenPushAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF8DCBE1EF8B9250038D39D /* WXSTransitionManager+InsideThenPushAnimation.m */; };
+		FBF8DCD71EF8B9250038D39D /* WXSTransitionManager+PageAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF8DCC01EF8B9250038D39D /* WXSTransitionManager+PageAnimation.m */; };
+		FBF8DCD81EF8B9250038D39D /* WXSTransitionManager+SpreadAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF8DCC21EF8B9250038D39D /* WXSTransitionManager+SpreadAnimation.m */; };
+		FBF8DCD91EF8B9250038D39D /* WXSTransitionManager+SystermAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF8DCC41EF8B9250038D39D /* WXSTransitionManager+SystermAnimation.m */; };
+		FBF8DCDA1EF8B9250038D39D /* WXSTransitionManager+TypeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF8DCC61EF8B9250038D39D /* WXSTransitionManager+TypeTool.m */; };
+		FBF8DCDB1EF8B9250038D39D /* WXSTransitionManager+ViewMoveAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF8DCC81EF8B9250038D39D /* WXSTransitionManager+ViewMoveAnimation.m */; };
+		FBF8DCDC1EF8B9250038D39D /* WXSTransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF8DCCA1EF8B9250038D39D /* WXSTransitionManager.m */; };
+		FBF8DCDD1EF8B9250038D39D /* WXSTransitionProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF8DCCC1EF8B9250038D39D /* WXSTransitionProperty.m */; };
+		FBF8DCE01EF8BE120038D39D /* ZSCateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF8DCDF1EF8BE120038D39D /* ZSCateViewController.m */; };
+		FBF8DCE31EF8C0150038D39D /* ZSCateCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF8DCE21EF8C0150038D39D /* ZSCateCollectionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2ED531FD7EA3D151BBB9C17E /* Pods-ZSReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZSReader.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZSReader/Pods-ZSReader.release.xcconfig"; sourceTree = "<group>"; };
+		A6F4DC7263B57AB9E3821DFC /* libPods-ZSReader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZSReader.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F81681720D41D792C889B1F7 /* Pods-ZSReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZSReader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZSReader/Pods-ZSReader.debug.xcconfig"; sourceTree = "<group>"; };
+		FB2E670C1EF7AEE600AF31A1 /* ZSRankViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSRankViewController.h; sourceTree = "<group>"; };
+		FB2E670D1EF7AEE600AF31A1 /* ZSRankViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSRankViewController.m; sourceTree = "<group>"; };
+		FBCF7AFA1EFBAB5C00414542 /* ZSSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSSearchViewController.h; sourceTree = "<group>"; };
+		FBCF7AFB1EFBAB5C00414542 /* ZSSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSSearchViewController.m; sourceTree = "<group>"; };
+		FBCF7AFD1EFBAB9100414542 /* ZSSearchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSSearchTableViewCell.h; sourceTree = "<group>"; };
+		FBCF7AFE1EFBAB9100414542 /* ZSSearchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSSearchTableViewCell.m; sourceTree = "<group>"; };
+		FBD329FF1EF1337F00AFF090 /* ZSReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZSReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBD32A031EF1337F00AFF090 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FBD32A051EF1337F00AFF090 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FBD32A061EF1337F00AFF090 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FBD32A0E1EF1337F00AFF090 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBD32A111EF1337F00AFF090 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBD32A131EF1337F00AFF090 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBD32A191EF1357B00AFF090 /* ZSBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSBaseViewController.h; sourceTree = "<group>"; };
+		FBD32A1A1EF1357B00AFF090 /* ZSBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSBaseViewController.m; sourceTree = "<group>"; };
+		FBD32A1C1EF137BE00AFF090 /* ZSShelfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSShelfViewController.h; sourceTree = "<group>"; };
+		FBD32A1D1EF137BE00AFF090 /* ZSShelfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSShelfViewController.m; sourceTree = "<group>"; };
+		FBD32A1F1EF137CD00AFF090 /* ZSMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSMenuViewController.h; sourceTree = "<group>"; };
+		FBD32A201EF137CD00AFF090 /* ZSMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSMenuViewController.m; sourceTree = "<group>"; };
+		FBD32A221EF137E500AFF090 /* ZSStoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSStoreViewController.h; sourceTree = "<group>"; };
+		FBD32A231EF137E500AFF090 /* ZSStoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSStoreViewController.m; sourceTree = "<group>"; };
+		FBD32A251EF1397200AFF090 /* ZSBaseNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSBaseNavController.h; sourceTree = "<group>"; };
+		FBD32A261EF1397200AFF090 /* ZSBaseNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSBaseNavController.m; sourceTree = "<group>"; };
+		FBDA60E11EF220FA008D68F0 /* Config_ZS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config_ZS.h; sourceTree = "<group>"; };
+		FBDA60E31EF2218F008D68F0 /* PrefixHeader_ZS.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader_ZS.pch; sourceTree = "<group>"; };
+		FBF8DCAD1EF8B9250038D39D /* UINavigationController+WXSTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+WXSTransition.h"; sourceTree = "<group>"; };
+		FBF8DCAE1EF8B9250038D39D /* UINavigationController+WXSTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+WXSTransition.m"; sourceTree = "<group>"; };
+		FBF8DCAF1EF8B9250038D39D /* UIViewController+WXSTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+WXSTransition.h"; sourceTree = "<group>"; };
+		FBF8DCB01EF8B9250038D39D /* UIViewController+WXSTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+WXSTransition.m"; sourceTree = "<group>"; };
+		FBF8DCB11EF8B9250038D39D /* UIViewController+WXSTransitionProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+WXSTransitionProperty.h"; sourceTree = "<group>"; };
+		FBF8DCB21EF8B9250038D39D /* UIViewController+WXSTransitionProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+WXSTransitionProperty.m"; sourceTree = "<group>"; };
+		FBF8DCB31EF8B9250038D39D /* WXSPercentDrivenInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXSPercentDrivenInteractiveTransition.h; sourceTree = "<group>"; };
+		FBF8DCB41EF8B9250038D39D /* WXSPercentDrivenInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXSPercentDrivenInteractiveTransition.m; sourceTree = "<group>"; };
+		FBF8DCB51EF8B9250038D39D /* WXSTransitionManager+BoomAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WXSTransitionManager+BoomAnimation.h"; sourceTree = "<group>"; };
+		FBF8DCB61EF8B9250038D39D /* WXSTransitionManager+BoomAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WXSTransitionManager+BoomAnimation.m"; sourceTree = "<group>"; };
+		FBF8DCB71EF8B9250038D39D /* WXSTransitionManager+BrickAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WXSTransitionManager+BrickAnimation.h"; sourceTree = "<group>"; };
+		FBF8DCB81EF8B9250038D39D /* WXSTransitionManager+BrickAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WXSTransitionManager+BrickAnimation.m"; sourceTree = "<group>"; };
+		FBF8DCB91EF8B9250038D39D /* WXSTransitionManager+CoverAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WXSTransitionManager+CoverAnimation.h"; sourceTree = "<group>"; };
+		FBF8DCBA1EF8B9250038D39D /* WXSTransitionManager+CoverAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WXSTransitionManager+CoverAnimation.m"; sourceTree = "<group>"; };
+		FBF8DCBB1EF8B9250038D39D /* WXSTransitionManager+FragmentAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WXSTransitionManager+FragmentAnimation.h"; sourceTree = "<group>"; };
+		FBF8DCBC1EF8B9250038D39D /* WXSTransitionManager+FragmentAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WXSTransitionManager+FragmentAnimation.m"; sourceTree = "<group>"; };
+		FBF8DCBD1EF8B9250038D39D /* WXSTransitionManager+InsideThenPushAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WXSTransitionManager+InsideThenPushAnimation.h"; sourceTree = "<group>"; };
+		FBF8DCBE1EF8B9250038D39D /* WXSTransitionManager+InsideThenPushAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WXSTransitionManager+InsideThenPushAnimation.m"; sourceTree = "<group>"; };
+		FBF8DCBF1EF8B9250038D39D /* WXSTransitionManager+PageAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WXSTransitionManager+PageAnimation.h"; sourceTree = "<group>"; };
+		FBF8DCC01EF8B9250038D39D /* WXSTransitionManager+PageAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WXSTransitionManager+PageAnimation.m"; sourceTree = "<group>"; };
+		FBF8DCC11EF8B9250038D39D /* WXSTransitionManager+SpreadAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WXSTransitionManager+SpreadAnimation.h"; sourceTree = "<group>"; };
+		FBF8DCC21EF8B9250038D39D /* WXSTransitionManager+SpreadAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WXSTransitionManager+SpreadAnimation.m"; sourceTree = "<group>"; };
+		FBF8DCC31EF8B9250038D39D /* WXSTransitionManager+SystermAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WXSTransitionManager+SystermAnimation.h"; sourceTree = "<group>"; };
+		FBF8DCC41EF8B9250038D39D /* WXSTransitionManager+SystermAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WXSTransitionManager+SystermAnimation.m"; sourceTree = "<group>"; };
+		FBF8DCC51EF8B9250038D39D /* WXSTransitionManager+TypeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WXSTransitionManager+TypeTool.h"; sourceTree = "<group>"; };
+		FBF8DCC61EF8B9250038D39D /* WXSTransitionManager+TypeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WXSTransitionManager+TypeTool.m"; sourceTree = "<group>"; };
+		FBF8DCC71EF8B9250038D39D /* WXSTransitionManager+ViewMoveAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WXSTransitionManager+ViewMoveAnimation.h"; sourceTree = "<group>"; };
+		FBF8DCC81EF8B9250038D39D /* WXSTransitionManager+ViewMoveAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WXSTransitionManager+ViewMoveAnimation.m"; sourceTree = "<group>"; };
+		FBF8DCC91EF8B9250038D39D /* WXSTransitionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXSTransitionManager.h; sourceTree = "<group>"; };
+		FBF8DCCA1EF8B9250038D39D /* WXSTransitionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXSTransitionManager.m; sourceTree = "<group>"; };
+		FBF8DCCB1EF8B9250038D39D /* WXSTransitionProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXSTransitionProperty.h; sourceTree = "<group>"; };
+		FBF8DCCC1EF8B9250038D39D /* WXSTransitionProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXSTransitionProperty.m; sourceTree = "<group>"; };
+		FBF8DCCD1EF8B9250038D39D /* WXSTypedefConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXSTypedefConfig.h; sourceTree = "<group>"; };
+		FBF8DCDE1EF8BE120038D39D /* ZSCateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSCateViewController.h; sourceTree = "<group>"; };
+		FBF8DCDF1EF8BE120038D39D /* ZSCateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSCateViewController.m; sourceTree = "<group>"; };
+		FBF8DCE11EF8C0150038D39D /* ZSCateCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSCateCollectionViewCell.h; sourceTree = "<group>"; };
+		FBF8DCE21EF8C0150038D39D /* ZSCateCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSCateCollectionViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBD329FC1EF1337F00AFF090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F3F9C6D2C9EF28190EF105F /* libPods-ZSReader.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B66DDF14857F6D4A249584C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6F4DC7263B57AB9E3821DFC /* libPods-ZSReader.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA85C1B35A5ABF8BD6953541 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F81681720D41D792C889B1F7 /* Pods-ZSReader.debug.xcconfig */,
+				2ED531FD7EA3D151BBB9C17E /* Pods-ZSReader.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FBD329F61EF1337F00AFF090 = {
+			isa = PBXGroup;
+			children = (
+				FBD32A011EF1337F00AFF090 /* ZSReader */,
+				FBD32A001EF1337F00AFF090 /* Products */,
+				CA85C1B35A5ABF8BD6953541 /* Pods */,
+				B66DDF14857F6D4A249584C4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FBD32A001EF1337F00AFF090 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBD329FF1EF1337F00AFF090 /* ZSReader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBD32A011EF1337F00AFF090 /* ZSReader */ = {
+			isa = PBXGroup;
+			children = (
+				FBF8DCAB1EF8B91F0038D39D /* ZSThird */,
+				FBD32A051EF1337F00AFF090 /* AppDelegate.h */,
+				FBD32A061EF1337F00AFF090 /* AppDelegate.m */,
+				FBD32A191EF1357B00AFF090 /* ZSBaseViewController.h */,
+				FBD32A1A1EF1357B00AFF090 /* ZSBaseViewController.m */,
+				FB2E670C1EF7AEE600AF31A1 /* ZSRankViewController.h */,
+				FB2E670D1EF7AEE600AF31A1 /* ZSRankViewController.m */,
+				FBF8DCE11EF8C0150038D39D /* ZSCateCollectionViewCell.h */,
+				FBF8DCE21EF8C0150038D39D /* ZSCateCollectionViewCell.m */,
+				FBF8DCDE1EF8BE120038D39D /* ZSCateViewController.h */,
+				FBF8DCDF1EF8BE120038D39D /* ZSCateViewController.m */,
+				FBD32A1C1EF137BE00AFF090 /* ZSShelfViewController.h */,
+				FBD32A1D1EF137BE00AFF090 /* ZSShelfViewController.m */,
+				FBD32A1F1EF137CD00AFF090 /* ZSMenuViewController.h */,
+				FBD32A201EF137CD00AFF090 /* ZSMenuViewController.m */,
+				FBD32A221EF137E500AFF090 /* ZSStoreViewController.h */,
+				FBD32A231EF137E500AFF090 /* ZSStoreViewController.m */,
+				FBD32A251EF1397200AFF090 /* ZSBaseNavController.h */,
+				FBD32A261EF1397200AFF090 /* ZSBaseNavController.m */,
+				FBCF7AFA1EFBAB5C00414542 /* ZSSearchViewController.h */,
+				FBCF7AFB1EFBAB5C00414542 /* ZSSearchViewController.m */,
+				FBCF7AFD1EFBAB9100414542 /* ZSSearchTableViewCell.h */,
+				FBCF7AFE1EFBAB9100414542 /* ZSSearchTableViewCell.m */,
+				FBDA60E11EF220FA008D68F0 /* Config_ZS.h */,
+				FBDA60E31EF2218F008D68F0 /* PrefixHeader_ZS.pch */,
+				FBD32A0E1EF1337F00AFF090 /* Assets.xcassets */,
+				FBD32A101EF1337F00AFF090 /* LaunchScreen.storyboard */,
+				FBD32A131EF1337F00AFF090 /* Info.plist */,
+				FBD32A021EF1337F00AFF090 /* Supporting Files */,
+			);
+			path = ZSReader;
+			sourceTree = "<group>";
+		};
+		FBD32A021EF1337F00AFF090 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBD32A031EF1337F00AFF090 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FBF8DCAB1EF8B91F0038D39D /* ZSThird */ = {
+			isa = PBXGroup;
+			children = (
+				FBF8DCAC1EF8B9250038D39D /* WXSTransition */,
+			);
+			path = ZSThird;
+			sourceTree = "<group>";
+		};
+		FBF8DCAC1EF8B9250038D39D /* WXSTransition */ = {
+			isa = PBXGroup;
+			children = (
+				FBF8DCAD1EF8B9250038D39D /* UINavigationController+WXSTransition.h */,
+				FBF8DCAE1EF8B9250038D39D /* UINavigationController+WXSTransition.m */,
+				FBF8DCAF1EF8B9250038D39D /* UIViewController+WXSTransition.h */,
+				FBF8DCB01EF8B9250038D39D /* UIViewController+WXSTransition.m */,
+				FBF8DCB11EF8B9250038D39D /* UIViewController+WXSTransitionProperty.h */,
+				FBF8DCB21EF8B9250038D39D /* UIViewController+WXSTransitionProperty.m */,
+				FBF8DCB31EF8B9250038D39D /* WXSPercentDrivenInteractiveTransition.h */,
+				FBF8DCB41EF8B9250038D39D /* WXSPercentDrivenInteractiveTransition.m */,
+				FBF8DCB51EF8B9250038D39D /* WXSTransitionManager+BoomAnimation.h */,
+				FBF8DCB61EF8B9250038D39D /* WXSTransitionManager+BoomAnimation.m */,
+				FBF8DCB71EF8B9250038D39D /* WXSTransitionManager+BrickAnimation.h */,
+				FBF8DCB81EF8B9250038D39D /* WXSTransitionManager+BrickAnimation.m */,
+				FBF8DCB91EF8B9250038D39D /* WXSTransitionManager+CoverAnimation.h */,
+				FBF8DCBA1EF8B9250038D39D /* WXSTransitionManager+CoverAnimation.m */,
+				FBF8DCBB1EF8B9250038D39D /* WXSTransitionManager+FragmentAnimation.h */,
+				FBF8DCBC1EF8B9250038D39D /* WXSTransitionManager+FragmentAnimation.m */,
+				FBF8DCBD1EF8B9250038D39D /* WXSTransitionManager+InsideThenPushAnimation.h */,
+				FBF8DCBE1EF8B9250038D39D /* WXSTransitionManager+InsideThenPushAnimation.m */,
+				FBF8DCBF1EF8B9250038D39D /* WXSTransitionManager+PageAnimation.h */,
+				FBF8DCC01EF8B9250038D39D /* WXSTransitionManager+PageAnimation.m */,
+				FBF8DCC11EF8B9250038D39D /* WXSTransitionManager+SpreadAnimation.h */,
+				FBF8DCC21EF8B9250038D39D /* WXSTransitionManager+SpreadAnimation.m */,
+				FBF8DCC31EF8B9250038D39D /* WXSTransitionManager+SystermAnimation.h */,
+				FBF8DCC41EF8B9250038D39D /* WXSTransitionManager+SystermAnimation.m */,
+				FBF8DCC51EF8B9250038D39D /* WXSTransitionManager+TypeTool.h */,
+				FBF8DCC61EF8B9250038D39D /* WXSTransitionManager+TypeTool.m */,
+				FBF8DCC71EF8B9250038D39D /* WXSTransitionManager+ViewMoveAnimation.h */,
+				FBF8DCC81EF8B9250038D39D /* WXSTransitionManager+ViewMoveAnimation.m */,
+				FBF8DCC91EF8B9250038D39D /* WXSTransitionManager.h */,
+				FBF8DCCA1EF8B9250038D39D /* WXSTransitionManager.m */,
+				FBF8DCCB1EF8B9250038D39D /* WXSTransitionProperty.h */,
+				FBF8DCCC1EF8B9250038D39D /* WXSTransitionProperty.m */,
+				FBF8DCCD1EF8B9250038D39D /* WXSTypedefConfig.h */,
+			);
+			path = WXSTransition;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBD329FE1EF1337F00AFF090 /* ZSReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBD32A161EF1337F00AFF090 /* Build configuration list for PBXNativeTarget "ZSReader" */;
+			buildPhases = (
+				F15097B241ABA724DD761A85 /* [CP] Check Pods Manifest.lock */,
+				FBD329FB1EF1337F00AFF090 /* Sources */,
+				FBD329FC1EF1337F00AFF090 /* Frameworks */,
+				FBD329FD1EF1337F00AFF090 /* Resources */,
+				E1EDB8A46F9EEF95A6CF8DE3 /* [CP] Embed Pods Frameworks */,
+				A8965D05A7F76CB97EA5B920 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZSReader;
+			productName = ZSReader;
+			productReference = FBD329FF1EF1337F00AFF090 /* ZSReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBD329F71EF1337F00AFF090 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = fly;
+				TargetAttributes = {
+					FBD329FE1EF1337F00AFF090 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4A6RCSK759;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FBD329FA1EF1337F00AFF090 /* Build configuration list for PBXProject "ZSReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBD329F61EF1337F00AFF090;
+			productRefGroup = FBD32A001EF1337F00AFF090 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBD329FE1EF1337F00AFF090 /* ZSReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBD329FD1EF1337F00AFF090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBD32A121EF1337F00AFF090 /* LaunchScreen.storyboard in Resources */,
+				FBD32A0F1EF1337F00AFF090 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A8965D05A7F76CB97EA5B920 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZSReader/Pods-ZSReader-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1EDB8A46F9EEF95A6CF8DE3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZSReader/Pods-ZSReader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F15097B241ABA724DD761A85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBD329FB1EF1337F00AFF090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBD32A211EF137CD00AFF090 /* ZSMenuViewController.m in Sources */,
+				FBCF7AFC1EFBAB5C00414542 /* ZSSearchViewController.m in Sources */,
+				FBF8DCD61EF8B9250038D39D /* WXSTransitionManager+InsideThenPushAnimation.m in Sources */,
+				FB2E670E1EF7AEE600AF31A1 /* ZSRankViewController.m in Sources */,
+				FBF8DCD31EF8B9250038D39D /* WXSTransitionManager+BrickAnimation.m in Sources */,
+				FBF8DCE31EF8C0150038D39D /* ZSCateCollectionViewCell.m in Sources */,
+				FBF8DCD91EF8B9250038D39D /* WXSTransitionManager+SystermAnimation.m in Sources */,
+				FBD32A1E1EF137BE00AFF090 /* ZSShelfViewController.m in Sources */,
+				FBD32A1B1EF1357B00AFF090 /* ZSBaseViewController.m in Sources */,
+				FBF8DCE01EF8BE120038D39D /* ZSCateViewController.m in Sources */,
+				FBF8DCD41EF8B9250038D39D /* WXSTransitionManager+CoverAnimation.m in Sources */,
+				FBF8DCD71EF8B9250038D39D /* WXSTransitionManager+PageAnimation.m in Sources */,
+				FBD32A271EF1397200AFF090 /* ZSBaseNavController.m in Sources */,
+				FBF8DCD01EF8B9250038D39D /* UIViewController+WXSTransitionProperty.m in Sources */,
+				FBF8DCD81EF8B9250038D39D /* WXSTransitionManager+SpreadAnimation.m in Sources */,
+				FBF8DCD11EF8B9250038D39D /* WXSPercentDrivenInteractiveTransition.m in Sources */,
+				FBCF7AFF1EFBAB9100414542 /* ZSSearchTableViewCell.m in Sources */,
+				FBD32A241EF137E500AFF090 /* ZSStoreViewController.m in Sources */,
+				FBF8DCD51EF8B9250038D39D /* WXSTransitionManager+FragmentAnimation.m in Sources */,
+				FBF8DCCF1EF8B9250038D39D /* UIViewController+WXSTransition.m in Sources */,
+				FBD32A071EF1337F00AFF090 /* AppDelegate.m in Sources */,
+				FBD32A041EF1337F00AFF090 /* main.m in Sources */,
+				FBF8DCDC1EF8B9250038D39D /* WXSTransitionManager.m in Sources */,
+				FBF8DCDA1EF8B9250038D39D /* WXSTransitionManager+TypeTool.m in Sources */,
+				FBF8DCDD1EF8B9250038D39D /* WXSTransitionProperty.m in Sources */,
+				FBF8DCCE1EF8B9250038D39D /* UINavigationController+WXSTransition.m in Sources */,
+				FBF8DCDB1EF8B9250038D39D /* WXSTransitionManager+ViewMoveAnimation.m in Sources */,
+				FBF8DCD21EF8B9250038D39D /* WXSTransitionManager+BoomAnimation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FBD32A101EF1337F00AFF090 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBD32A111EF1337F00AFF090 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBD32A141EF1337F00AFF090 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBD32A151EF1337F00AFF090 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBD32A171EF1337F00AFF090 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F81681720D41D792C889B1F7 /* Pods-ZSReader.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4A6RCSK759;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZSReader/PrefixHeader_ZS.pch";
+				INFOPLIST_FILE = ZSReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fly.ZSReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FBD32A181EF1337F00AFF090 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ED531FD7EA3D151BBB9C17E /* Pods-ZSReader.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4A6RCSK759;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZSReader/PrefixHeader_ZS.pch";
+				INFOPLIST_FILE = ZSReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fly.ZSReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBD329FA1EF1337F00AFF090 /* Build configuration list for PBXProject "ZSReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBD32A141EF1337F00AFF090 /* Debug */,
+				FBD32A151EF1337F00AFF090 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBD32A161EF1337F00AFF090 /* Build configuration list for PBXNativeTarget "ZSReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBD32A171EF1337F00AFF090 /* Debug */,
+				FBD32A181EF1337F00AFF090 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBD329F71EF1337F00AFF090 /* Project object */;
+}
