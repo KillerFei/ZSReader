@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		4F3F9C6D2C9EF28190EF105F /* libPods-ZSReader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F4DC7263B57AB9E3821DFC /* libPods-ZSReader.a */; };
 		FB2E670E1EF7AEE600AF31A1 /* ZSRankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2E670D1EF7AEE600AF31A1 /* ZSRankViewController.m */; };
+		FB4766151F02083D00FE302F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB4766141F02083D00FE302F /* Default-568h@2x.png */; };
 		FBCF7AFC1EFBAB5C00414542 /* ZSSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCF7AFB1EFBAB5C00414542 /* ZSSearchViewController.m */; };
 		FBCF7AFF1EFBAB9100414542 /* ZSSearchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCF7AFE1EFBAB9100414542 /* ZSSearchTableViewCell.m */; };
 		FBD32A041EF1337F00AFF090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD32A031EF1337F00AFF090 /* main.m */; };
 		FBD32A071EF1337F00AFF090 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD32A061EF1337F00AFF090 /* AppDelegate.m */; };
 		FBD32A0F1EF1337F00AFF090 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBD32A0E1EF1337F00AFF090 /* Assets.xcassets */; };
-		FBD32A121EF1337F00AFF090 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD32A101EF1337F00AFF090 /* LaunchScreen.storyboard */; };
 		FBD32A1B1EF1357B00AFF090 /* ZSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD32A1A1EF1357B00AFF090 /* ZSBaseViewController.m */; };
 		FBD32A1E1EF137BE00AFF090 /* ZSShelfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD32A1D1EF137BE00AFF090 /* ZSShelfViewController.m */; };
 		FBD32A211EF137CD00AFF090 /* ZSMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD32A201EF137CD00AFF090 /* ZSMenuViewController.m */; };
@@ -44,29 +44,29 @@
 		2ED531FD7EA3D151BBB9C17E /* Pods-ZSReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZSReader.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZSReader/Pods-ZSReader.release.xcconfig"; sourceTree = "<group>"; };
 		A6F4DC7263B57AB9E3821DFC /* libPods-ZSReader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZSReader.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F81681720D41D792C889B1F7 /* Pods-ZSReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZSReader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZSReader/Pods-ZSReader.debug.xcconfig"; sourceTree = "<group>"; };
-		FB2E670C1EF7AEE600AF31A1 /* ZSRankViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSRankViewController.h; sourceTree = "<group>"; };
-		FB2E670D1EF7AEE600AF31A1 /* ZSRankViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSRankViewController.m; sourceTree = "<group>"; };
-		FBCF7AFA1EFBAB5C00414542 /* ZSSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSSearchViewController.h; sourceTree = "<group>"; };
-		FBCF7AFB1EFBAB5C00414542 /* ZSSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSSearchViewController.m; sourceTree = "<group>"; };
-		FBCF7AFD1EFBAB9100414542 /* ZSSearchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSSearchTableViewCell.h; sourceTree = "<group>"; };
-		FBCF7AFE1EFBAB9100414542 /* ZSSearchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSSearchTableViewCell.m; sourceTree = "<group>"; };
+		FB2E670C1EF7AEE600AF31A1 /* ZSRankViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZSRankViewController.h; path = ../ZSRankViewController.h; sourceTree = "<group>"; };
+		FB2E670D1EF7AEE600AF31A1 /* ZSRankViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZSRankViewController.m; path = ../ZSRankViewController.m; sourceTree = "<group>"; };
+		FB4766141F02083D00FE302F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FBCF7AFA1EFBAB5C00414542 /* ZSSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZSSearchViewController.h; path = ../ZSSearchViewController.h; sourceTree = "<group>"; };
+		FBCF7AFB1EFBAB5C00414542 /* ZSSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZSSearchViewController.m; path = ../ZSSearchViewController.m; sourceTree = "<group>"; };
+		FBCF7AFD1EFBAB9100414542 /* ZSSearchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZSSearchTableViewCell.h; path = ../ZSSearchTableViewCell.h; sourceTree = "<group>"; };
+		FBCF7AFE1EFBAB9100414542 /* ZSSearchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZSSearchTableViewCell.m; path = ../ZSSearchTableViewCell.m; sourceTree = "<group>"; };
 		FBD329FF1EF1337F00AFF090 /* ZSReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZSReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBD32A031EF1337F00AFF090 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FBD32A051EF1337F00AFF090 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FBD32A061EF1337F00AFF090 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FBD32A0E1EF1337F00AFF090 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FBD32A111EF1337F00AFF090 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBD32A131EF1337F00AFF090 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FBD32A191EF1357B00AFF090 /* ZSBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSBaseViewController.h; sourceTree = "<group>"; };
-		FBD32A1A1EF1357B00AFF090 /* ZSBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSBaseViewController.m; sourceTree = "<group>"; };
-		FBD32A1C1EF137BE00AFF090 /* ZSShelfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSShelfViewController.h; sourceTree = "<group>"; };
-		FBD32A1D1EF137BE00AFF090 /* ZSShelfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSShelfViewController.m; sourceTree = "<group>"; };
-		FBD32A1F1EF137CD00AFF090 /* ZSMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSMenuViewController.h; sourceTree = "<group>"; };
-		FBD32A201EF137CD00AFF090 /* ZSMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSMenuViewController.m; sourceTree = "<group>"; };
-		FBD32A221EF137E500AFF090 /* ZSStoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSStoreViewController.h; sourceTree = "<group>"; };
-		FBD32A231EF137E500AFF090 /* ZSStoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSStoreViewController.m; sourceTree = "<group>"; };
-		FBD32A251EF1397200AFF090 /* ZSBaseNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSBaseNavController.h; sourceTree = "<group>"; };
-		FBD32A261EF1397200AFF090 /* ZSBaseNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSBaseNavController.m; sourceTree = "<group>"; };
+		FBD32A191EF1357B00AFF090 /* ZSBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZSBaseViewController.h; path = ZSReader/ZSBaseViewController.h; sourceTree = SOURCE_ROOT; };
+		FBD32A1A1EF1357B00AFF090 /* ZSBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZSBaseViewController.m; path = ZSReader/ZSBaseViewController.m; sourceTree = SOURCE_ROOT; };
+		FBD32A1C1EF137BE00AFF090 /* ZSShelfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZSShelfViewController.h; path = ZSReader/ZSShelfViewController.h; sourceTree = SOURCE_ROOT; };
+		FBD32A1D1EF137BE00AFF090 /* ZSShelfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZSShelfViewController.m; path = ZSReader/ZSShelfViewController.m; sourceTree = SOURCE_ROOT; };
+		FBD32A1F1EF137CD00AFF090 /* ZSMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZSMenuViewController.h; path = ../ZSMenuViewController.h; sourceTree = "<group>"; };
+		FBD32A201EF137CD00AFF090 /* ZSMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZSMenuViewController.m; path = ../ZSMenuViewController.m; sourceTree = "<group>"; };
+		FBD32A221EF137E500AFF090 /* ZSStoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZSStoreViewController.h; path = ZSReader/ZSStoreViewController.h; sourceTree = SOURCE_ROOT; };
+		FBD32A231EF137E500AFF090 /* ZSStoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZSStoreViewController.m; path = ZSReader/ZSStoreViewController.m; sourceTree = SOURCE_ROOT; };
+		FBD32A251EF1397200AFF090 /* ZSBaseNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZSBaseNavController.h; path = ZSReader/ZSBaseNavController.h; sourceTree = SOURCE_ROOT; };
+		FBD32A261EF1397200AFF090 /* ZSBaseNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZSBaseNavController.m; path = ZSReader/ZSBaseNavController.m; sourceTree = SOURCE_ROOT; };
 		FBDA60E11EF220FA008D68F0 /* Config_ZS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config_ZS.h; sourceTree = "<group>"; };
 		FBDA60E31EF2218F008D68F0 /* PrefixHeader_ZS.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader_ZS.pch; sourceTree = "<group>"; };
 		FBF8DCAD1EF8B9250038D39D /* UINavigationController+WXSTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+WXSTransition.h"; sourceTree = "<group>"; };
@@ -102,10 +102,10 @@
 		FBF8DCCB1EF8B9250038D39D /* WXSTransitionProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXSTransitionProperty.h; sourceTree = "<group>"; };
 		FBF8DCCC1EF8B9250038D39D /* WXSTransitionProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXSTransitionProperty.m; sourceTree = "<group>"; };
 		FBF8DCCD1EF8B9250038D39D /* WXSTypedefConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXSTypedefConfig.h; sourceTree = "<group>"; };
-		FBF8DCDE1EF8BE120038D39D /* ZSCateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSCateViewController.h; sourceTree = "<group>"; };
-		FBF8DCDF1EF8BE120038D39D /* ZSCateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSCateViewController.m; sourceTree = "<group>"; };
-		FBF8DCE11EF8C0150038D39D /* ZSCateCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSCateCollectionViewCell.h; sourceTree = "<group>"; };
-		FBF8DCE21EF8C0150038D39D /* ZSCateCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSCateCollectionViewCell.m; sourceTree = "<group>"; };
+		FBF8DCDE1EF8BE120038D39D /* ZSCateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZSCateViewController.h; path = ../ZSCateViewController.h; sourceTree = "<group>"; };
+		FBF8DCDF1EF8BE120038D39D /* ZSCateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZSCateViewController.m; path = ../ZSCateViewController.m; sourceTree = "<group>"; };
+		FBF8DCE11EF8C0150038D39D /* ZSCateCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZSCateCollectionViewCell.h; path = ../ZSCateCollectionViewCell.h; sourceTree = "<group>"; };
+		FBF8DCE21EF8C0150038D39D /* ZSCateCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZSCateCollectionViewCell.m; path = ../ZSCateCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,9 +137,51 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		FB4766111F02015E00FE302F /* ZSBase */ = {
+			isa = PBXGroup;
+			children = (
+				FBD32A191EF1357B00AFF090 /* ZSBaseViewController.h */,
+				FBD32A1A1EF1357B00AFF090 /* ZSBaseViewController.m */,
+				FBD32A251EF1397200AFF090 /* ZSBaseNavController.h */,
+				FBD32A261EF1397200AFF090 /* ZSBaseNavController.m */,
+			);
+			path = ZSBase;
+			sourceTree = "<group>";
+		};
+		FB4766121F02019C00FE302F /* ZSStore */ = {
+			isa = PBXGroup;
+			children = (
+				FBD32A221EF137E500AFF090 /* ZSStoreViewController.h */,
+				FBD32A231EF137E500AFF090 /* ZSStoreViewController.m */,
+				FBCF7AFA1EFBAB5C00414542 /* ZSSearchViewController.h */,
+				FBCF7AFB1EFBAB5C00414542 /* ZSSearchViewController.m */,
+				FBCF7AFD1EFBAB9100414542 /* ZSSearchTableViewCell.h */,
+				FBCF7AFE1EFBAB9100414542 /* ZSSearchTableViewCell.m */,
+				FB2E670C1EF7AEE600AF31A1 /* ZSRankViewController.h */,
+				FB2E670D1EF7AEE600AF31A1 /* ZSRankViewController.m */,
+				FBF8DCDE1EF8BE120038D39D /* ZSCateViewController.h */,
+				FBF8DCDF1EF8BE120038D39D /* ZSCateViewController.m */,
+				FBF8DCE11EF8C0150038D39D /* ZSCateCollectionViewCell.h */,
+				FBF8DCE21EF8C0150038D39D /* ZSCateCollectionViewCell.m */,
+				FBD32A1F1EF137CD00AFF090 /* ZSMenuViewController.h */,
+				FBD32A201EF137CD00AFF090 /* ZSMenuViewController.m */,
+			);
+			path = ZSStore;
+			sourceTree = "<group>";
+		};
+		FB4766131F0201B200FE302F /* ZSShelf */ = {
+			isa = PBXGroup;
+			children = (
+				FBD32A1C1EF137BE00AFF090 /* ZSShelfViewController.h */,
+				FBD32A1D1EF137BE00AFF090 /* ZSShelfViewController.m */,
+			);
+			path = ZSShelf;
+			sourceTree = "<group>";
+		};
 		FBD329F61EF1337F00AFF090 = {
 			isa = PBXGroup;
 			children = (
+				FB4766141F02083D00FE302F /* Default-568h@2x.png */,
 				FBD32A011EF1337F00AFF090 /* ZSReader */,
 				FBD32A001EF1337F00AFF090 /* Products */,
 				CA85C1B35A5ABF8BD6953541 /* Pods */,
@@ -158,33 +200,10 @@
 		FBD32A011EF1337F00AFF090 /* ZSReader */ = {
 			isa = PBXGroup;
 			children = (
+				FB4766131F0201B200FE302F /* ZSShelf */,
+				FB4766121F02019C00FE302F /* ZSStore */,
+				FB4766111F02015E00FE302F /* ZSBase */,
 				FBF8DCAB1EF8B91F0038D39D /* ZSThird */,
-				FBD32A051EF1337F00AFF090 /* AppDelegate.h */,
-				FBD32A061EF1337F00AFF090 /* AppDelegate.m */,
-				FBD32A191EF1357B00AFF090 /* ZSBaseViewController.h */,
-				FBD32A1A1EF1357B00AFF090 /* ZSBaseViewController.m */,
-				FB2E670C1EF7AEE600AF31A1 /* ZSRankViewController.h */,
-				FB2E670D1EF7AEE600AF31A1 /* ZSRankViewController.m */,
-				FBF8DCE11EF8C0150038D39D /* ZSCateCollectionViewCell.h */,
-				FBF8DCE21EF8C0150038D39D /* ZSCateCollectionViewCell.m */,
-				FBF8DCDE1EF8BE120038D39D /* ZSCateViewController.h */,
-				FBF8DCDF1EF8BE120038D39D /* ZSCateViewController.m */,
-				FBD32A1C1EF137BE00AFF090 /* ZSShelfViewController.h */,
-				FBD32A1D1EF137BE00AFF090 /* ZSShelfViewController.m */,
-				FBD32A1F1EF137CD00AFF090 /* ZSMenuViewController.h */,
-				FBD32A201EF137CD00AFF090 /* ZSMenuViewController.m */,
-				FBD32A221EF137E500AFF090 /* ZSStoreViewController.h */,
-				FBD32A231EF137E500AFF090 /* ZSStoreViewController.m */,
-				FBD32A251EF1397200AFF090 /* ZSBaseNavController.h */,
-				FBD32A261EF1397200AFF090 /* ZSBaseNavController.m */,
-				FBCF7AFA1EFBAB5C00414542 /* ZSSearchViewController.h */,
-				FBCF7AFB1EFBAB5C00414542 /* ZSSearchViewController.m */,
-				FBCF7AFD1EFBAB9100414542 /* ZSSearchTableViewCell.h */,
-				FBCF7AFE1EFBAB9100414542 /* ZSSearchTableViewCell.m */,
-				FBDA60E11EF220FA008D68F0 /* Config_ZS.h */,
-				FBDA60E31EF2218F008D68F0 /* PrefixHeader_ZS.pch */,
-				FBD32A0E1EF1337F00AFF090 /* Assets.xcassets */,
-				FBD32A101EF1337F00AFF090 /* LaunchScreen.storyboard */,
 				FBD32A131EF1337F00AFF090 /* Info.plist */,
 				FBD32A021EF1337F00AFF090 /* Supporting Files */,
 			);
@@ -194,7 +213,12 @@
 		FBD32A021EF1337F00AFF090 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FBD32A051EF1337F00AFF090 /* AppDelegate.h */,
+				FBD32A061EF1337F00AFF090 /* AppDelegate.m */,
+				FBDA60E11EF220FA008D68F0 /* Config_ZS.h */,
+				FBDA60E31EF2218F008D68F0 /* PrefixHeader_ZS.pch */,
 				FBD32A031EF1337F00AFF090 /* main.m */,
+				FBD32A0E1EF1337F00AFF090 /* Assets.xcassets */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -309,8 +333,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBD32A121EF1337F00AFF090 /* LaunchScreen.storyboard in Resources */,
 				FBD32A0F1EF1337F00AFF090 /* Assets.xcassets in Resources */,
+				FB4766151F02083D00FE302F /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,17 +425,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		FBD32A101EF1337F00AFF090 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FBD32A111EF1337F00AFF090 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FBD32A141EF1337F00AFF090 /* Debug */ = {
@@ -516,6 +529,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fly.ZSReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -531,6 +545,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fly.ZSReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

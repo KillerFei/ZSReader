@@ -29,7 +29,7 @@
     [self.navigationController setNavigationBarHidden:isHide];
 }
 #pragma mark - setLeftBackNavItem
-- (void)setLeftBackNavItem
+- (void)setLeftNavItem
 {
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
     btn.frame = CGRectMake(0, 0, 30, 30);

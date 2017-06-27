@@ -41,7 +41,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.view addSubview:self.myCollecV];
-    [self setLeftBackNavItem];
+    [self setLeftNavItem];
     self.navigationItem.title = @"分类";
 }
 - (void)doBack

@@ -49,10 +49,10 @@
     for (NSString *title in keys) {
         
         UIButton *searchBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-        [searchBtn setTitleColor:ZS_Base_TitleColor forState:UIControlStateNormal];
-        [searchBtn addTarget:self action:@selector(searchBtn:) forControlEvents:UIControlEventTouchUpInside];
         searchBtn.titleLabel.font = [UIFont systemFontOfSize:15];
         [searchBtn setTitle:title forState:UIControlStateNormal];
+        [searchBtn setTitleColor:ZS_Base_TitleColor forState:UIControlStateNormal];
+        [searchBtn addTarget:self action:@selector(searchAction:) forControlEvents:UIControlEventTouchUpInside];
         [self.contentView addSubview:searchBtn];
         [_keyBtnArr addObject:searchBtn];
         CGFloat titleWidth =  [title boundingRectWithSize:CGSizeMake(MAXFLOAT, 15) options:NSStringDrawingUsesFontLeading|NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:15]} context:nil].size.width+28;
@@ -69,7 +69,6 @@
         searchBtn.layer.cornerRadius = 5;
         searchBtn.layer.borderWidth  = .5f;
         searchBtn.layer.borderColor = ZS_Base_ContentColor.CGColor;
-        
     }
 }
 + (CGFloat)calCellHeightWithKeys:(NSArray *)keys
@@ -91,6 +90,9 @@
     height = height+25+kCellMargin;
     return height;
 }
-
-
+#pragma mark - action
+- (void)searchAction:(UIButton *)sender
+{
+    
+}
 @end

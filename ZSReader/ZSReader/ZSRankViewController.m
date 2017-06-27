@@ -10,10 +10,11 @@
 
 @interface ZSRankViewController ()<UITableViewDelegate, UITableViewDataSource>
 
-@property (nonatomic, strong) UITableView    *rankTab;
-@property (nonatomic, strong) NSArray        *rankData;
-@property (nonatomic, strong) UITableView    *listTab;
-@property (nonatomic, strong) UIView         *headView;
+@property (nonatomic, strong) UITableView     *rankTab;
+@property (nonatomic, strong) NSArray         *rankData;
+@property (nonatomic, strong) UITableView     *listTab;
+@property (nonatomic, strong) UIView          *headView;
+@property (nonatomic, strong) NSIndexPath     *preSelectIndex;
 @end
 
 @implementation ZSRankViewController
@@ -47,9 +48,9 @@
         _rankTab = [[UITableView alloc] initWithFrame:CGRectMake(0, 64+40, 80, KSCREEN_HEIGHT-64-40) style:UITableViewStylePlain];
         _rankTab.delegate = self;
         _rankTab.dataSource = self;
+        _rankTab.showsVerticalScrollIndicator = NO;
         _rankTab.backgroundColor = ZS_Base_BgGrayColor;
         _rankTab.separatorStyle = UITableViewCellSeparatorStyleNone;
-        _rankTab.showsVerticalScrollIndicator = NO;
         [_rankTab registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cellID"];
     }
     return _rankTab;
@@ -72,7 +73,7 @@
     [self.view addSubview:self.headView];
     [self.view addSubview:self.rankTab];
     [self.view addSubview:self.listTab];
-    [self setLeftBackNavItem];
+    [self setLeftNavItem];
     self.navigationItem.title = @"排行榜";
 }
 - (void)doBack
@@ -93,11 +94,25 @@
     cell.textLabel.textColor = ZS_Base_TitleColor;
     cell.textLabel.text = self.rankData[indexPath.row];
     cell.contentView.backgroundColor = ZS_Base_BgGrayColor;
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
     return cell;
 }
-
-
-
-
-
+- (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    if (cell == _preSelectCell) {
+        cell.contentView.backgroundColor = ZS_Base_BgGrayColor;
+    }
+}
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    if (_preSelectCell) {
+        _preSelectCell.contentView.backgroundColor = ZS_Base_BgGrayColor;
+    }
+    UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
+    _preSelectCell = cell;
+    if (tableView == _rankTab) {
+        
+        cell.contentView.backgroundColor = [UIColor whiteColor];
+    }
+}
 @end

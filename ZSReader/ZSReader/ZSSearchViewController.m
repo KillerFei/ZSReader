@@ -17,18 +17,6 @@
 
 @implementation ZSSearchViewController
 
-- (UITableView *)myTabV
-{
-    if (!_myTabV) {
-        _myTabV = [[UITableView alloc] initWithFrame:CGRectMake(0, 64, KSCREEN_WIDTH, KSCREEN_HEIGHT) style:UITableViewStylePlain];
-        _myTabV.delegate = self;
-        _myTabV.dataSource = self;
-        _myTabV.tableFooterView = [[UIView alloc] init];
-        [_myTabV registerClass:[ZSSearchTableViewCell class] forCellReuseIdentifier:@"cellID"];
-        [_myTabV registerClass:[UITableViewCell class] forCellReuseIdentifier:@"historyCellID"];
-    }
-    return _myTabV;
-}
 - (NSMutableArray *)dataSource
 {
     if (!_dataSource) {
@@ -41,8 +29,18 @@
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self setLeftBackNavItem];
-    [self.view addSubview:self.myTabV];
+    [self setLeftNavItem];
+    [self setUpTabV];
+}
+- (void)setUpTabV
+{
+    _myTabV = [[UITableView alloc] initWithFrame:CGRectMake(0, 64, KSCREEN_WIDTH, KSCREEN_HEIGHT) style:UITableViewStylePlain];
+    _myTabV.delegate = self;
+    _myTabV.dataSource = self;
+    _myTabV.tableFooterView = [[UIView alloc] init];
+    [_myTabV registerClass:[ZSSearchTableViewCell class] forCellReuseIdentifier:@"cellID"];
+    [_myTabV registerClass:[UITableViewCell class] forCellReuseIdentifier:@"historyCellID"];
+    [self.view addSubview:_myTabV];
 }
 - (void)doBack
 {
@@ -99,10 +97,6 @@
     [cell setUpKeys:self.dataSource[indexPath.section]];
     return cell;
 }
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
 {
     if (scrollView == self.myTabV)
@@ -114,5 +108,7 @@
         }
     }
 }
-
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+}
 @end
