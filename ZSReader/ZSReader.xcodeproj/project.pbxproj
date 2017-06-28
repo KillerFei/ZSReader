@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		4F3F9C6D2C9EF28190EF105F /* libPods-ZSReader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F4DC7263B57AB9E3821DFC /* libPods-ZSReader.a */; };
 		FB2E670E1EF7AEE600AF31A1 /* ZSRankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2E670D1EF7AEE600AF31A1 /* ZSRankViewController.m */; };
-		FB4766151F02083D00FE302F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB4766141F02083D00FE302F /* Default-568h@2x.png */; };
 		FBCF7AFC1EFBAB5C00414542 /* ZSSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCF7AFB1EFBAB5C00414542 /* ZSSearchViewController.m */; };
 		FBCF7AFF1EFBAB9100414542 /* ZSSearchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCF7AFE1EFBAB9100414542 /* ZSSearchTableViewCell.m */; };
 		FBD32A041EF1337F00AFF090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD32A031EF1337F00AFF090 /* main.m */; };
@@ -20,6 +19,8 @@
 		FBD32A211EF137CD00AFF090 /* ZSMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD32A201EF137CD00AFF090 /* ZSMenuViewController.m */; };
 		FBD32A241EF137E500AFF090 /* ZSStoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD32A231EF137E500AFF090 /* ZSStoreViewController.m */; };
 		FBD32A271EF1397200AFF090 /* ZSBaseNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD32A261EF1397200AFF090 /* ZSBaseNavController.m */; };
+		FBEB1E771F035B1A0081899E /* UIView+YPFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEB1E761F035B1A0081899E /* UIView+YPFExtension.m */; };
+		FBEB1E7A1F0381980081899E /* zs_navbar_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBEB1E791F0381980081899E /* zs_navbar_bg@2x.png */; };
 		FBF8DCCE1EF8B9250038D39D /* UINavigationController+WXSTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF8DCAE1EF8B9250038D39D /* UINavigationController+WXSTransition.m */; };
 		FBF8DCCF1EF8B9250038D39D /* UIViewController+WXSTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF8DCB01EF8B9250038D39D /* UIViewController+WXSTransition.m */; };
 		FBF8DCD01EF8B9250038D39D /* UIViewController+WXSTransitionProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF8DCB21EF8B9250038D39D /* UIViewController+WXSTransitionProperty.m */; };
@@ -46,7 +47,6 @@
 		F81681720D41D792C889B1F7 /* Pods-ZSReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZSReader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZSReader/Pods-ZSReader.debug.xcconfig"; sourceTree = "<group>"; };
 		FB2E670C1EF7AEE600AF31A1 /* ZSRankViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZSRankViewController.h; path = ../ZSRankViewController.h; sourceTree = "<group>"; };
 		FB2E670D1EF7AEE600AF31A1 /* ZSRankViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZSRankViewController.m; path = ../ZSRankViewController.m; sourceTree = "<group>"; };
-		FB4766141F02083D00FE302F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		FBCF7AFA1EFBAB5C00414542 /* ZSSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZSSearchViewController.h; path = ../ZSSearchViewController.h; sourceTree = "<group>"; };
 		FBCF7AFB1EFBAB5C00414542 /* ZSSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZSSearchViewController.m; path = ../ZSSearchViewController.m; sourceTree = "<group>"; };
 		FBCF7AFD1EFBAB9100414542 /* ZSSearchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZSSearchTableViewCell.h; path = ../ZSSearchTableViewCell.h; sourceTree = "<group>"; };
@@ -69,6 +69,9 @@
 		FBD32A261EF1397200AFF090 /* ZSBaseNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZSBaseNavController.m; path = ZSReader/ZSBaseNavController.m; sourceTree = SOURCE_ROOT; };
 		FBDA60E11EF220FA008D68F0 /* Config_ZS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config_ZS.h; sourceTree = "<group>"; };
 		FBDA60E31EF2218F008D68F0 /* PrefixHeader_ZS.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader_ZS.pch; sourceTree = "<group>"; };
+		FBEB1E751F035B1A0081899E /* UIView+YPFExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YPFExtension.h"; sourceTree = "<group>"; };
+		FBEB1E761F035B1A0081899E /* UIView+YPFExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YPFExtension.m"; sourceTree = "<group>"; };
+		FBEB1E791F0381980081899E /* zs_navbar_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zs_navbar_bg@2x.png"; sourceTree = "<group>"; };
 		FBF8DCAD1EF8B9250038D39D /* UINavigationController+WXSTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+WXSTransition.h"; sourceTree = "<group>"; };
 		FBF8DCAE1EF8B9250038D39D /* UINavigationController+WXSTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+WXSTransition.m"; sourceTree = "<group>"; };
 		FBF8DCAF1EF8B9250038D39D /* UIViewController+WXSTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+WXSTransition.h"; sourceTree = "<group>"; };
@@ -181,7 +184,6 @@
 		FBD329F61EF1337F00AFF090 = {
 			isa = PBXGroup;
 			children = (
-				FB4766141F02083D00FE302F /* Default-568h@2x.png */,
 				FBD32A011EF1337F00AFF090 /* ZSReader */,
 				FBD32A001EF1337F00AFF090 /* Products */,
 				CA85C1B35A5ABF8BD6953541 /* Pods */,
@@ -200,6 +202,7 @@
 		FBD32A011EF1337F00AFF090 /* ZSReader */ = {
 			isa = PBXGroup;
 			children = (
+				FBEB1E781F0381920081899E /* ZSResource */,
 				FB4766131F0201B200FE302F /* ZSShelf */,
 				FB4766121F02019C00FE302F /* ZSStore */,
 				FB4766111F02015E00FE302F /* ZSBase */,
@@ -223,9 +226,27 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		FBEB1E741F035B0B0081899E /* ZSEx */ = {
+			isa = PBXGroup;
+			children = (
+				FBEB1E751F035B1A0081899E /* UIView+YPFExtension.h */,
+				FBEB1E761F035B1A0081899E /* UIView+YPFExtension.m */,
+			);
+			path = ZSEx;
+			sourceTree = "<group>";
+		};
+		FBEB1E781F0381920081899E /* ZSResource */ = {
+			isa = PBXGroup;
+			children = (
+				FBEB1E791F0381980081899E /* zs_navbar_bg@2x.png */,
+			);
+			path = ZSResource;
+			sourceTree = "<group>";
+		};
 		FBF8DCAB1EF8B91F0038D39D /* ZSThird */ = {
 			isa = PBXGroup;
 			children = (
+				FBEB1E741F035B0B0081899E /* ZSEx */,
 				FBF8DCAC1EF8B9250038D39D /* WXSTransition */,
 			);
 			path = ZSThird;
@@ -333,8 +354,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBEB1E7A1F0381980081899E /* zs_navbar_bg@2x.png in Resources */,
 				FBD32A0F1EF1337F00AFF090 /* Assets.xcassets in Resources */,
-				FB4766151F02083D00FE302F /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +424,7 @@
 				FBD32A1E1EF137BE00AFF090 /* ZSShelfViewController.m in Sources */,
 				FBD32A1B1EF1357B00AFF090 /* ZSBaseViewController.m in Sources */,
 				FBF8DCE01EF8BE120038D39D /* ZSCateViewController.m in Sources */,
+				FBEB1E771F035B1A0081899E /* UIView+YPFExtension.m in Sources */,
 				FBF8DCD41EF8B9250038D39D /* WXSTransitionManager+CoverAnimation.m in Sources */,
 				FBF8DCD71EF8B9250038D39D /* WXSTransitionManager+PageAnimation.m in Sources */,
 				FBD32A271EF1397200AFF090 /* ZSBaseNavController.m in Sources */,
@@ -522,6 +544,7 @@
 			baseConfigurationReference = F81681720D41D792C889B1F7 /* Pods-ZSReader.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 4A6RCSK759;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ZSReader/PrefixHeader_ZS.pch";
@@ -538,6 +561,7 @@
 			baseConfigurationReference = 2ED531FD7EA3D151BBB9C17E /* Pods-ZSReader.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 4A6RCSK759;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ZSReader/PrefixHeader_ZS.pch";

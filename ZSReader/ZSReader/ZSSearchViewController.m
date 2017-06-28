@@ -34,7 +34,7 @@
 }
 - (void)setUpTabV
 {
-    _myTabV = [[UITableView alloc] initWithFrame:CGRectMake(0, 64, KSCREEN_WIDTH, KSCREEN_HEIGHT) style:UITableViewStylePlain];
+    _myTabV = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
     _myTabV.delegate = self;
     _myTabV.dataSource = self;
     _myTabV.tableFooterView = [[UIView alloc] init];

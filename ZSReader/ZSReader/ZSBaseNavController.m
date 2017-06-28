@@ -17,7 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:ZS_Nav_TitleColor, NSFontAttributeName:ZS_Nav_TitleFont}];
-    [[UINavigationBar appearance] setBackgroundImage:[[UIImage imageNamed:@"yc_nav_bg"] stretchableImageWithLeftCapWidth:3 topCapHeight:3]  forBarMetrics:UIBarMetricsDefault];
+    [[UINavigationBar appearance] setBackgroundImage:[[UIImage imageNamed:@"zs_navbar_bg"] stretchableImageWithLeftCapWidth:3 topCapHeight:3]  forBarMetrics:UIBarMetricsDefault];
+//    [[UINavigationBar appearance] setShadowImage:[UIImage new]];
     UIImageView *lineView = [self findHairlineImageViewUnder:self.navigationBar];
     UIView *diyLine = [[UIView alloc] initWithFrame:CGRectMake(0, 0, KSCREEN_WIDTH, 0.5)];
     diyLine.backgroundColor = ZS_Base_LineColor;

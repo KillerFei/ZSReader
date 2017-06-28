@@ -27,7 +27,7 @@
         layOut.sectionInset = UIEdgeInsetsMake(0, 0, 10, 0);
         layOut.itemSize = CGSizeMake(KSCREEN_WIDTH/3.f, 60);
         layOut.headerReferenceSize = CGSizeMake(KSCREEN_WIDTH, 50);
-        _myCollecV = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 64, KSCREEN_WIDTH, KSCREEN_HEIGHT-64) collectionViewLayout:layOut];
+        _myCollecV = [[UICollectionView alloc] initWithFrame:self.view.bounds collectionViewLayout:layOut];
         _myCollecV.backgroundColor = [UIColor whiteColor];
         [_myCollecV registerClass:[ZSCateCollectionViewCell class] forCellWithReuseIdentifier:@"cellID"];
         [_myCollecV registerClass:[ZSCateCollectionHeaderView class] forSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:@"headerID"];
